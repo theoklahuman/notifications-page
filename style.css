@@ -96,8 +96,9 @@ a:active,
   margin: 8px 0;
   background: hsl(0, 0%, 100%);
   border-radius: 8px;
-}
-sl .notification-description__read {
+}sl
+
+.notification-description__read {
   display: flex;
   padding: 12px;
   margin: 8px 0;
@@ -106,7 +107,7 @@ sl .notification-description__read {
 }
 
 .notification-message-preview {
-  border: 1px solid hsl(205, 33%, 90%);
-  margin: 8px 0;
-  padding: 8px;
+    border: 1px solid hsl(205, 33%, 90%);
+    margin: 8px 0;
+    padding: 8px;
 }

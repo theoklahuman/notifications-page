@@ -11,44 +11,92 @@
   <body>
     <header id="notifications-header">
       <h2>Notifications</h2>
-      <h4>3</h4>
-      <h6>Mark all as read</h6>
+      <h4 class="notification-count">3</h4>
+      <h6 class="mark-read"><a href="#">Mark all as read</a></h6>
     </header>
-    <img src="assets/images/avatar-mark-webber.webp" alt="photo of Mark" />
-    <p>
-      <strong>Mark Webber</strong> reacted to your recent post
-      <a href="#">My First tournament today!</a>
-    </p>
-    <p>1m ago</p>
-    <img src="assets/images/avatar-angela-gray.webp" alt="photo of angela" />
-    <p><strong>Angela Gray</strong> followed you</p>
-    <p>5m ago</p>
-    <img src="assets/images/avatar-jacob-thompson.webp" alt="photo of Jacob" />
-    <p>
-      <strong>Jacob Thompson</strong> has joined your group
-      <a href="#">Chess Club</a>
-    </p>
-    <p>1 day ago</p>
-    <img src="assets/images/avatar-rizky-hasanuddin.webp" alt="photo of Rizky" />
-    <p><strong>Rizky Hasanuddin</strong> sent you a private message</p>
-    <p>5 days ago</p>
-    <article>
-      Hello, thanks for setting up the Chess Club. I've been a member for a few
-      weeks now and I'm already having lots of fun and improving my game.
-    </article>
-    <img src="assets/images/avatar-kimberly-smith.webp" alt="photo of Kimberly" />
-    <p><strong>Kimberly Smith</strong> commented on your picture</p>
-    <img src="assets/images/image-chess.webp" alt="photo of user" />
-    <p>1 week ago</p>
-    <img src="assets/images/avatar-nathan-peterson.webp" alt="photo of Nathan" />
-    <p>
-      <strong>Nathan Peterson</strong> reacted to your recent post
-      <a href=""> 5 end-game strategies to increase your win rate </a>
-    </p>
-    <p>2 weeks ago</p>
-    <img src="assets/images/avatar-anna-kim.webp" alt="photo of Anna" />
-    <p><strong>Anna Kim</strong> has left the group
-      <a href="#">Chess Club</a></p>
-    <p>2 weeks ago</p>
+    <div class="notification-container__unread">
+      <img src="assets/images/avatar-mark-webber.webp" alt="photo of Mark" />
+      <div class="notification-description">
+        <p>
+          <a href="#">Mark Webber</a> reacted to your recent post
+          <a href="#">My First tournament today!</a>
+          <span class="notification-unread__icon"></span>
+        </p>
+        <p>1m ago</p>
+      </div>
+    </div>
+    <div class="notification-container__unread">
+      <img src="assets/images/avatar-angela-gray.webp" alt="photo of angela" />
+      <div class="notification-description">
+        <p>
+          <a href="#">Angela Gray</a> followed you
+          <span class="notification-unread__icon"></span>
+        </p>
+        <p>5m ago</p>
+      </div>
+    </div>
+    <div class="notification-container__unread">
+      <img
+        src="assets/images/avatar-jacob-thompson.webp"
+        alt="photo of Jacob"
+      />
+      <div class="notification-description">
+        <p>
+          <a href="#">Jacob Thompson</a> has joined your group
+          <a href="#">Chess Club</a>
+          <span class="notification-unread__icon"></span>
+        </p>
+        <p>1 day ago</p>
+      </div>
+    </div>
+    <div class="notification-container__read">
+      <img
+        src="assets/images/avatar-rizky-hasanuddin.webp"
+        alt="photo of Rizky"
+      />
+      <div class="notification-description__read">
+        <p><a href="#">Rizky Hasanuddin</a> sent you a private message</p>
+        <p>5 days ago</p>
+        <article class="notification-message-preview">
+          Hello, thanks for setting up the Chess Club. I've been a member for a
+          few weeks now and I'm already having lots of fun and improving my
+          game.
+        </article>
+      </div>
+    </div>
+    <div class="notification-container__read">
+      <img
+        src="assets/images/avatar-kimberly-smith.webp"
+        alt="photo of Kimberly"
+      />
+      <div class="notification-description__read">
+        <p><a href="#">Kimberly Smith</a> commented on your picture</p>
+        <p>1 week ago</p>
+      </div>
+      <img src="assets/images/image-chess.webp" alt="photo of user" />
+    </div>
+    <div class="notification-container__read">
+      <img
+        src="assets/images/avatar-nathan-peterson.webp"
+        alt="photo of Nathan"
+      />
+      <div class="notification-description__read">
+        <p>
+          <a href="#">Nathan Peterson</a> reacted to your recent post
+          <a href="#"> 5 end-game strategies to increase your win rate </a>
+        </p>
+        <p>2 weeks ago</p>
+      </div>
+    </div>
+    <div class="notification-container__read">
+      <img src="assets/images/avatar-anna-kim.webp" alt="photo of Anna" />
+      <div class="notification-description__read">
+        <p>
+          <a href="#">Anna Kim</a> has left the group
+          <a href="#">Chess Club</a>
+        </p>
+        <p>2 weeks ago</p>
+      </div>
+    </div>
   </body>
 </html>

@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+#notifications-header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+h2,
+h4 {
+  font-weight: 800;
+  margin-right: 8px;
+}
+
+.notification-count {
+  width: 2rem;
+  text-align: center;
+  background: hsl(219, 85%, 26%);
+  border-radius: 8px;
+  color: white;
+}
+
+.mark-read {
+  margin-left: auto;
+}
+
+.mark-read a {
+  text-decoration: none;
+  color: hsl(219, 14%, 63%);
+}
+
+a:active,
+.notification-description a:active,
+.notification-description__read a:active,
+.notification-description a:first-of-type:active,
+.notification-description__read a:first-of-type:active {
+  color: hsl(219, 85%, 26%);
+}
+
+.notification-container__unread {
+  display: flex;
+  padding: 12px;
+  margin: 8px 0;
+  background: hsl(211, 68%, 94%);
+  border-radius: 8px;
+}
+
+.notification-container__unread img,
+.notification-container__read img {
+  width: 15%;
+  height: 15%;
+}
+
+.notification-description,
+.notification-description__read {
+  display: flex;
+  flex-direction: column;
+}
+
+.notification-description a:first-of-type,
+.notification-description__read a:first-of-type {
+  color: black;
+}
+
+.notification-description a,
+.notification-description__read a {
+  text-decoration: none;
+  font-size: 1rem;
+  color: hsl(219, 12%, 42%);
+  font-weight: 800;
+}
+
+.notification-description p,
+.notification-description__read p {
+  margin: 0 8px;
+  font-size: 0.8rem;
+  color: hsl(224, 21%, 14%);
+}
+
+.notification-unread__icon {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: hsl(1, 90%, 64%);
+}
+
+.notification-container__read {
+  display: flex;
+  padding: 12px;
+  margin: 8px 0;
+  background: hsl(0, 0%, 100%);
+  border-radius: 8px;
+}
+sl .notification-description__read {
+  display: flex;
+  padding: 12px;
+  margin: 8px 0;
+  background: hsl(210, 60%, 98%);
+  border-radius: 8px;
+}
+
+.notification-message-preview {
+  border: 1px solid hsl(205, 33%, 90%);
+  margin: 8px 0;
+  padding: 8px;
+}

@@ -42,12 +42,17 @@ a:active,
   color: hsl(219, 85%, 26%);
 }
 
-.notification-container__unread {
+.notification-container__unread,
+.notification-container__read,
+.notification-description__read {
   display: flex;
   padding: 12px;
   margin: 8px 0;
-  background: hsl(211, 68%, 94%);
   border-radius: 8px;
+}
+
+.notification-container__unread {
+  background: hsl(211, 68%, 94%);
 }
 
 .notification-container__unread img,
@@ -91,23 +96,27 @@ a:active,
 }
 
 .notification-container__read {
-  display: flex;
-  padding: 12px;
-  margin: 8px 0;
   background: hsl(0, 0%, 100%);
-  border-radius: 8px;
-}sl
+}
 
 .notification-description__read {
-  display: flex;
-  padding: 12px;
-  margin: 8px 0;
   background: hsl(210, 60%, 98%);
-  border-radius: 8px;
 }
 
 .notification-message-preview {
-    border: 1px solid hsl(205, 33%, 90%);
-    margin: 8px 0;
-    padding: 8px;
+  border: 1px solid hsl(205, 33%, 90%);
+  margin: 8px 0;
+  padding: 8px;
+}
+
+@media (min-width: 520px) {
+  html {
+    background: hsl(210, 60%, 98%);
+  }
+  body {
+    margin: 5% 25%;
+    background: white;
+    border-radius: 16px;
+    padding: 5%;
+  }
 }

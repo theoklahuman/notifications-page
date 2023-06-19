@@ -24,12 +24,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](screenshot.png)
+![preview](screenshot.png)
 
 ### Links
 
-- Solution URL: [https://github.com/theoklahuman/notifications-page]
-- Live Site URL: [https://theoklahuman.github.io/notifications-page/]
+- Solution URL: [code](https://github.com/theoklahuman/notifications-page)
+- Live Site URL: [live site](https://theoklahuman.github.io/notifications-page/)
 
 ## My process
 
